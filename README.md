@@ -12,9 +12,9 @@ This folder contains the following datasets:
 
 * `peptides_length_15aa.csv`, this file contains the peptides strictly with a length of 15 AA only.
 
-* `peptides_less_than_15aa.csv`, this file only contains the peptides that have a length less than 15 AA only.
+* `peptides_less_than_15aa.csv`, this file contains the PDB Code, chain ID and start/end points, and sequence for peptides that have a length less than 15 AA only.
 
-* `peptides_with_unknown_residues.csv`, this file contains the PDB source file, chain ID and start/end points for peptides that have unknown residues in their PDB file (these are not included in either of the above files.)
+* `peptides_with_unknown_residues.csv`, this file contains the PDB Code, chain ID and start/end points for peptides that have unknown residues in their PDB file (these are not included in either of the above files.)
 
 ## Descriptors
 
