@@ -2,7 +2,7 @@
 
 # Peptides Dataset
 
-The PDBs for this dataset were downloaded from [RCSB](https://www.rcsb.org/) on November 1st, 2023. The peptides were extracted from PDBs on July 16th, 2024 and the features of these peptides were extracted on July 17, 2023. The features were extracted using [Peptides.py](https://peptides.readthedocs.io/en/stable/index.html) and [Biopython](https://biopython.org/).
+The PDBs for this dataset were downloaded from [RCSB](https://www.rcsb.org/) on November 1st, 2023. The peptides were extracted from PDBs on July 16th, 2024 and the features for these peptides were extracted on July 17, 2024. The features were extracted using [Peptides.py](https://peptides.readthedocs.io/en/stable/index.html) and [Biopython](https://biopython.org/).
 
 ## File information
 
