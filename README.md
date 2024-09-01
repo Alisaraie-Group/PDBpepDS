@@ -1,14 +1,14 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-# Peptides Dataset
+# DBPeptides
 
-The PDBs for this dataset were downloaded from [RCSB](https://www.rcsb.org/) on November 1st, 2023. The peptides were extracted from PDBs on July 16th, 2024 and the features for these peptides were extracted on July 17, 2024. The features were extracted using [Peptides.py](https://peptides.readthedocs.io/en/stable/index.html) and [Biopython](https://biopython.org/).
+For this comprehensive database of peptides, the PDB files of all the proteins were downloaded from [RCSB](https://www.rcsb.org/) on November 1st, 2023. 
 
 ## File information
 
 This folder contains the following datasets:
 
-* `output_full.csv`, which contains all the peptides including peptides with a length less than 15 AA, and peptides with length exactly 15 AA.
+* `output_full.csv`, which contains all the peptides, including peptides with a length of less than 15 AA as well as those with a length of precisely 15 AA.
 
 * `peptides_length_15aa.csv`, this file contains the peptides strictly with a length of 15 AA only.
 
@@ -118,7 +118,7 @@ This folder contains the following datasets:
 
 If you use this dataset for academic work, please cite it using
 ```
-example
+DBPepties, Luckman Qasim and Laleh Alisaraie, 2024
 ```
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
