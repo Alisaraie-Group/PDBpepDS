@@ -1,4 +1,5 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
+[![DOI](https://zenodo.org/badge/840512564.svg)](https://zenodo.org/doi/10.5281/zenodo.13625562)
 
 # PDBpepDS
 
@@ -118,7 +119,7 @@ This folder contains the following datasets:
 
 If you use this dataset for academic work, please cite it using
 ```
-PDBpepDS, Luckman Qasim and Laleh Alisaraie, 2024
+PDBpepDS, Luckman Qasim and Laleh Alisaraie, 2024, doi:10.5281/zenodo.13625563
 ```
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
