@@ -1,6 +1,6 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-# DBPeptides
+# PDBpepDS
 
 For this comprehensive database of peptides, the PDB files of all the proteins were downloaded from [RCSB](https://www.rcsb.org/) on November 1st, 2023. 
 
@@ -118,7 +118,7 @@ This folder contains the following datasets:
 
 If you use this dataset for academic work, please cite it using
 ```
-DBPepties, Luckman Qasim and Laleh Alisaraie, 2024
+PDBpepDS, Luckman Qasim and Laleh Alisaraie, 2024
 ```
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
