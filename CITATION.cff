@@ -1,0 +1,12 @@
+cff-version: 1.1.0
+message: "If you use this dataset, please cite it as below."
+authors:
+- family-names: Qasim
+  given-names: Muhammad Luckman
+  orcid: https://orcid.org/0009-0002-3036-9370
+- family-names: Alisaraie
+  given-names: Laleh
+  orcid: https://orcid.org/0000-0002-8874-5909
+title:Alisaraie-Group/PDBpepDS: Version 0.1.0
+version: v0.1.0
+date-released: 2024-09-01
