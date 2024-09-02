@@ -3,7 +3,7 @@
 
 # PDBpepDS
 
-For this comprehensive database of peptides, the PDB files of all the proteins were downloaded from [RCSB](https://www.rcsb.org/) on November 1st, 2023. 
+This comprehensive dataset of peptides was created using all the protein files deposited in [RCSB](https://www.rcsb.org/) as of November 1st, 2023. 
 
 ## File information
 
