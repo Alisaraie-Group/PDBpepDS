@@ -133,7 +133,7 @@ df <- read_parquet("output_full.parquet")
 
 If you use this dataset for academic work, please cite it using
 ```
-PDBpepDS, Luckman Qasim and Laleh Alisaraie, 2025, doi:10.5281/zenodo.13625563
+PDBpepDS, Luckman Qasim and Laleh Alisaraie, 2024-2026, doi:10.5281/zenodo.13625563
 ```
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
