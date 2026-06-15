@@ -3,19 +3,33 @@
 
 # PDBpepDS
 
-This comprehensive dataset of peptides was created using all the protein files deposited in [RCSB](https://www.rcsb.org/) as of November 1st, 2023. 
+This comprehensive dataset of peptides was created using all the protein files deposited in [RCSB](https://www.rcsb.org/) as of December 31st, 2025. 
 
 ## File information
 
 This folder contains the following datasets:
 
-* `output_full.csv`, which contains all the peptides, including peptides with a length of less than 15 AA as well as those with a length of precisely 15 AA.
+* `output_full.csv`, which contains all the peptides, including peptides with a length of less than 15 AA as well as those with a length of precisely 15 AA. Peptides with unknown or missing residues are excluded from this file (see `peptides_with_unknown_residues.csv`).
 
 * `peptides_length_15aa.csv`, this file contains the peptides strictly with a length of 15 AA only.
 
 * `peptides_less_than_15aa.csv`, this file contains the PDB Code, chain ID and start/end points, and sequence for peptides that have a length less than 15 AA only.
 
 * `peptides_with_unknown_residues.csv`, this file contains the PDB Code, chain ID and start/end points for peptides that have unknown residues in their PDB file (these are not included in either of the above files.)
+
+## Data Formats
+
+The primary data files are provided as CSVs (tracked via Git LFS). Parquet versions of `output_full` and `peptides_length_15aa` are also available in this repository for faster loading and reduced memory usage in Python/R/Julia workflows:
+
+```python
+import pandas as pd
+df = pd.read_parquet("output_full.parquet")
+```
+
+```r
+library(arrow)
+df <- read_parquet("output_full.parquet")
+```
 
 ## Descriptors
 
@@ -119,7 +133,7 @@ This folder contains the following datasets:
 
 If you use this dataset for academic work, please cite it using
 ```
-PDBpepDS, Luckman Qasim and Laleh Alisaraie, 2024, doi:10.5281/zenodo.13625563
+PDBpepDS, Luckman Qasim and Laleh Alisaraie, 2024-2026, doi:10.5281/zenodo.13625563
 ```
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
