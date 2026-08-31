@@ -9,4 +9,8 @@ authors:
     orcid: https://orcid.org/0000-0002-8874-5909
 title: "Alisaraie-Group/PDBpepDS: Version 0.2.0"
 version: v0.2.0
-date-released: 2025-06-15
+identifiers:
+  - description: Zenodo generic DOI for all versions of this dataset
+  - type: doi
+  - value: 10.5281/zenodo.13625562
+date-released: 2025-08-31
